@@ -26,3 +26,6 @@ BUAA-MIHR database is released to universities and research institutes for resea
 [Baidu Pan](https://pan.baidu.com/s/1ejtYtKi8jZMPZe-25pgziQ  "Baidu Pan")
 
 download code: e181
+
+## Citation
+
