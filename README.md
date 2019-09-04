@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 # Large-scale-Multi-illumination-HR-Database
 ## 1.Overview
 
@@ -29,5 +30,5 @@ download code: e181
 
 ## Citation
 
-https://latex.codecogs.com/gif.latex?{10^0,&space;10^0.2}
+<a href="https://www.codecogs.com/eqnedit.php?latex={10^0,&space;10^0.2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{10^0,&space;10^0.2}" title="{10^0, 10^0.2}" /></a>
 
