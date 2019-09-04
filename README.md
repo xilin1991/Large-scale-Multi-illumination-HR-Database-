@@ -29,5 +29,5 @@ download code: e181
 
 ## Citation
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+<img src="https://latex.codecogs.com/gif.latex?{10^0,&space;10^0.2}" title="{10^0, 10^0.2}" />
 
