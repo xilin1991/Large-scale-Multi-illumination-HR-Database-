@@ -29,5 +29,5 @@ download code: e181
 
 ## Citation
 
-<img src="https://latex.codecogs.com/gif.latex?{10^0,&space;10^0.2}" title="{10^0, 10^0.2}" />
+https://latex.codecogs.com/gif.latex?{10^0,&space;10^0.2}
 
