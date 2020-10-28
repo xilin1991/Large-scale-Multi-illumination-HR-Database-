@@ -29,7 +29,7 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
 
 BUAA-MIHR database is released to universities and research institutes for research purpose only.
 
-\[[Baidu Pan](https://pan.baidu.com/s/1cp8qPXyp1Y96SIlU-6UyFA  "Baidu Pan")\]
+Please contact xilin1991@buaa.edu.cn for requests.
 
 
 
