@@ -31,7 +31,6 @@ BUAA-MIHR database is released to universities and research institutes for resea
 
 \[[Baidu Pan](https://pan.baidu.com/s/1ejtYtKi8jZMPZe-25pgziQ  "Baidu Pan")\]
 
-download code: e181
 
 ## Citation
 L. Xi, W. Chen, C. Zhao, X. Wu and J. Wang,  "Image Enhancement for Remote Photoplethysmography in a Low-Light Environment," in 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020) (FG), Buenos Aires, undefined, AR, 2020 pp. 485-491. \[[link](https://www.computer.org/csdl/proceedings-article/fg/2020/307900a485/1kecIBreNYk)\]
