@@ -15,7 +15,7 @@ equivalent to
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}" title="\{1.0, 1.6, 2.5, 4.0, 6.3, 10.0, 15.8, 25.1, 39.8, 63.1, 100.0\}\ \textbf{lux}" /></a>
 
-### Device and settings
+<center>Device and settings</center>
 | **Device** | **Model** | **Settings** |
 |:-------:|:-------:|:-------:|
 | Computer | Lenovo Y430p | Ubuntu 16.04 LTS |
