@@ -17,6 +17,7 @@ equivalent to
 
 Device and settings
 | Device | Model | Settings|
+|:-------:|:-------:|:-------:|
 | Computer | Lenovo Y430p | Ubuntu 16.04 LTS |
 |RGB camera | Logitech C930e | HD 640×480, FPS 30 |
 |LED ligths | Panasonic HHLT0623 | Temperature: 4000K, Rated Voltage: 220V, Frequency: 50Hz |
