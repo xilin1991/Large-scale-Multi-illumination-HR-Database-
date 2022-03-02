@@ -40,6 +40,8 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
 
 * Note that please contact xilin1991@buaa.edu.cn for requests using an official email address (that is, university or institute email address, and non-official email addresses such as Gmail and 163 are not acceptable). When we receive your reply, we would provide the download link to you.
 
+* Download BUAA-MIHR database in [Baidu Pan](https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA).
+
 * By using the BUAA-MIHR database, you are recommended to cite the following paper:
 
 ## Citation
