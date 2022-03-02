@@ -50,8 +50,6 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
   booktitle={2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)}, 
   title={Image Enhancement for Remote Photoplethysmography in a Low-Light Environment}, 
   year={2020},
-  volume={},
-  number={},
   pages={1-7},
   doi={10.1109/FG47880.2020.00076}}
 ```
