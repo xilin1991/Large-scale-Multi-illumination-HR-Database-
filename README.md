@@ -1,7 +1,7 @@
-# Large-scale-Multi-illumination-HR-Database
+# Large-scale-Multi-illumination-HR-Dataset (RPPG dataset)
 ## 1.Overview
 
-BUAA-MIHR database is a database for remote heart rate (HR) estimation from face videos under multi-illumination situations. We recruited 15 healthy subjects (12 male, 3 female, 18 to 30 years old) in this experiment and a total number of 165 video sequences were recorded under various illuminations. The experiments were conducted in a darkroom in order to isolate from ambient light.
+BUAA-MIHR dataset is a database for remote heart rate (HR) estimation from face videos under multi-illumination situations. BUAA-MIHR dataset is a remote photoplethysmography (rPPG) dataset. We recruited 15 healthy subjects (12 male, 3 female, 18 to 30 years old) in this experiment and a total number of 165 video sequences were recorded under various illuminations. The experiments were conducted in a darkroom in order to isolate from ambient light.
 
 ## 2.Apparatus and Experimental Environment
 
