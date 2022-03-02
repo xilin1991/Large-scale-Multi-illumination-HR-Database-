@@ -44,4 +44,6 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
 
 ## Citation
 * Xi, L., Chen, W., Zhao, C., Wu, X., & Wang, J. (2020, November). Image enhancement for remote photoplethysmography in a low-light environment. In 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020) (pp. 1-7). IEEE. [<a href="https://ieeexplore.ieee.org/document/9320298" target="_blank">paper</a>]
-[comment]: <> L. Xi, W. Chen, C. Zhao, X. Wu and J. Wang, "Image Enhancement for Remote Photoplethysmography in a Low-Light Environment", 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020), Buenos Aires, Argentina, 2020, pp. 1-7, doi: 10.1109/FG47880.2020.00076. 
+```
+# (L. Xi, W. Chen, C. Zhao, X. Wu and J. Wang, "Image Enhancement for Remote Photoplethysmography in a Low-Light Environment", 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition #(FG 2020), Buenos Aires, Argentina, 2020, pp. 1-7, doi: 10.1109/FG47880.2020.00076.) 
+```
