@@ -1,4 +1,4 @@
-# Large-scale-Multi-illumination-rPPG-Dataset
+# Large-scale-Multi-illumination-HR-Database (rPPG dataset)
 ## 1.Overview
 
 BUAA-MIHR dataset is a remote photoplethysmography (rPPG) dataset. BUAA-MIHR dataset for evaluation of remote photoplethysmography pipeline under multi-illumination situations. We recruited 15 healthy subjects (12 male, 3 female, 18 to 30 years old) in this experiment and a total number of 165 video sequences were recorded under various illuminations. The experiments were conducted in a darkroom in order to isolate from ambient light.
