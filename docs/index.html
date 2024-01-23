@@ -5,14 +5,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4PHBZXG5S"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-E4PHBZXG5S');
+        gtag('config', 'G-E4PHBZXG5S');
     </script>
 
-	<title>BUAA-MIHR rPPG dataset</title>
+    <title>BUAA-MIHR rPPG dataset</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS only -->
@@ -21,264 +21,270 @@
     <link href="https://fonts.cdnfonts.com/css/limetart" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <style>
         table,
         th,
         td {
             border: 1px solid black;
         }
-    
+
         table.center {
             margin-left: auto;
             margin-right: auto;
         }
-    
+
         @import url('https://fonts.cdnfonts.com/css/limetart');
     </style>
 </head>
 
 <body>
-<br><br><br><br>
-<div class="container">
-    <div class="row text-center" style="font-size:38px">
-        <div class="col">
-            Large-scale Multi-illumination HR Database (BUAA-MIHR rPPG dataset)
+    <br><br><br><br>
+    <div class="container">
+        <div class="row text-center" style="font-size:38px">
+            <div class="col">
+                Large-scale Multi-illumination HR Database (BUAA-MIHR rPPG dataset)
+            </div>
         </div>
-    </div>
 
-    <br>
-    <div class="row text-center" style="font-size:28px">
-        <div class="col">
-            FG 2020
+        <br>
+        <div class="row text-center" style="font-size:28px">
+            <div class="col">
+                FG 2020
+            </div>
         </div>
-    </div>
-    <br>
+        <br>
 
-    <div class="h-100 row text-center heavy justify-content-md-center" style="font-size:24px;">
-        <div class="col-sm-3">
-            <a href="https://xilin1991.github.io/xilin1991/">Lin Xi</a>
+        <div class="h-100 row text-center heavy justify-content-md-center" style="font-size:24px;">
+            <div class="col-sm-3">
+                <a href="https://xilin1991.github.io/xilin1991/">Lin Xi</a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://scholar.google.com/citations?user=utc_IEIAAAAJ&hl=en">Changchen Zhao</a>
+            </div>
+            <div class="col-sm-3">
+                <a href="https://www.researchgate.net/profile/Weihai-Chen-2">Weihai Chen</a>
+            </div>
         </div>
-        <div class="col-sm-3">
-            <a href="https://scholar.google.com/citations?user=utc_IEIAAAAJ&hl=en">Changchen Zhao</a>
-        </div>
-        <div class="col-sm-3">
-            <a href="https://www.researchgate.net/profile/Weihai-Chen-2">Weihai Chen</a>
-        </div>
-    </div>
 
-    <br>
+        <br>
 
-    <div class="h-100 row text-center justify-content-md-center" style="font-size:20px;">
-        <div class="col-sm-2">
-            <a href="https://ieeexplore.ieee.org/abstract/document/9320298" target="_blank"><img alt="Static Badge"
-                    src="https://img.shields.io/badge/IEEE-TCSVT-blue?logo=IEEE&logoColor=white"></a>
+        <div class="h-100 row text-center justify-content-md-center" style="font-size:20px;">
+            <div class="col-sm-2">
+                <a href="https://ieeexplore.ieee.org/abstract/document/9320298" target="_blank"><img alt="Static Badge"
+                        src="https://img.shields.io/badge/IEEE-TCSVT-blue?logo=IEEE&logoColor=white"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="https://arxiv.org/abs/2303.09336" target="_blank"><img
+                        src="https://img.shields.io/badge/arXiv-2303.09336-b31b1b?style=flat&logo=arXiv"></a>
+            </div>
         </div>
-        <div class="col-sm-2">
-            <a href="https://arxiv.org/abs/2303.09336" target="_blank"><img
-                    src="https://img.shields.io/badge/arXiv-2303.09336-b31b1b?style=flat&logo=arXiv"></a>
-        </div>
-    </div>
 
-    <br>
+        <br>
 
-    <hr>
+        <hr>
 
-    <div class="row" style="font-size:32px">
-        <div class="col">
-            1.Overview
+        <div class="row" style="font-size:32px">
+            <div class="col">
+                1.Overview
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col">
-            <p style="text-align: justify;">
-                BUAA-MIHR dataset is a remote photoplethysmography (rPPG) dataset. BUAA-MIHR dataset for evaluation of
-                remote photoplethysmography pipeline under multi-illumination situations. We recruited 15 healthy
-                subjects
-                (12 male, 3 female, 18 to 30 years old) in this experiment and a total number of 165 video sequences
-                were
-                recorded under various illuminations. The experiments were conducted in a darkroom in order to isolate
-                from
-                ambient light.
-            </p>
+        <br>
+        <div class="row">
+            <div class="col">
+                <p style="text-align: justify;">
+                    BUAA-MIHR dataset is a remote photoplethysmography (rPPG) dataset. BUAA-MIHR dataset for evaluation
+                    of
+                    remote photoplethysmography pipeline under multi-illumination situations. We recruited 15 healthy
+                    subjects
+                    (12 male, 3 female, 18 to 30 years old) in this experiment and a total number of 165 video sequences
+                    were
+                    recorded under various illuminations. The experiments were conducted in a darkroom in order to
+                    isolate
+                    from
+                    ambient light.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <br>
-    <hr>
-    <br>
+        <br>
+        <hr>
+        <br>
 
-    <div class="row" style="font-size:32px">
-        <div class="col">
-            2.Apparatus and Experimental Environment
+        <div class="row" style="font-size:32px">
+            <div class="col">
+                2.Apparatus and Experimental Environment
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col">
-            <p style="text-align: justify;">
-                Logitech HD pro webcam C930E color camera was used to record videos of 640 × 480 pixels, 8 bit depth, 30
-                fps, 60s, uncompressed bitmap format. PPG signal was measured using CONTEC CMS50E.
-            </p>
-            <p style="text-align: justify;">
-                The video is captured in a darkroom, which is covered witha blackout cloth. A split type illuminometer
-                is
-                used as the instrument for measuring light intensity and brightness in the darkroom. We varied
-                illuminance
-                in the range:
-            </p>
-            <p style="text-align: center"><a
-                    href="https://www.codecogs.com/eqnedit.php?latex=\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}"
-                    target="_blank"><img
-                        src="https://latex.codecogs.com/gif.latex?\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}"
-                        title="\{10^0, 10^{0.2}, 10^{0.4}, 10^{0.6}, 10^{0.8}, 10^{1.0}, 10^{1.2}, 10^{1.4}, 10^{1.6}, 10^{1.8}, 10^{2.0}\}\ \textbf{lux}" /></a>,
-            </p>
-            <p style="text-align: justify;">
-                equivalent to
-            </p>
-            <p style="text-align: center"><a
-                    href="https://www.codecogs.com/eqnedit.php?latex=\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}"
-                    target="_blank"><img
-                        src="https://latex.codecogs.com/gif.latex?\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}"
-                        title="\{1.0, 1.6, 2.5, 4.0, 6.3, 10.0, 15.8, 25.1, 39.8, 63.1, 100.0\}\ \textbf{lux}" /></a>.
-            </p>
+        <br>
+        <div class="row">
+            <div class="col">
+                <p style="text-align: justify;">
+                    Logitech HD pro webcam C930E color camera was used to record videos of 640 × 480 pixels, 8 bit
+                    depth, 30
+                    fps, 60s, uncompressed bitmap format. PPG signal was measured using CONTEC CMS50E.
+                </p>
+                <p style="text-align: justify;">
+                    The video is captured in a darkroom, which is covered witha blackout cloth. A split type
+                    illuminometer
+                    is
+                    used as the instrument for measuring light intensity and brightness in the darkroom. We varied
+                    illuminance
+                    in the range:
+                </p>
+                <p style="text-align: center"><a
+                        href="https://www.codecogs.com/eqnedit.php?latex=\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}"
+                        target="_blank"><img
+                            src="https://latex.codecogs.com/gif.latex?\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}"
+                            title="\{10^0, 10^{0.2}, 10^{0.4}, 10^{0.6}, 10^{0.8}, 10^{1.0}, 10^{1.2}, 10^{1.4}, 10^{1.6}, 10^{1.8}, 10^{2.0}\}\ \textbf{lux}" /></a>,
+                </p>
+                <p style="text-align: justify;">
+                    equivalent to
+                </p>
+                <p style="text-align: center"><a
+                        href="https://www.codecogs.com/eqnedit.php?latex=\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}"
+                        target="_blank"><img
+                            src="https://latex.codecogs.com/gif.latex?\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}"
+                            title="\{1.0, 1.6, 2.5, 4.0, 6.3, 10.0, 15.8, 25.1, 39.8, 63.1, 100.0\}\ \textbf{lux}" /></a>.
+                </p>
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row text-center">
-        <div class="col">
-            <b>Device and settings</b>
+        <br>
+        <div class="row text-center">
+            <div class="col">
+                <b>Device and settings</b>
+            </div>
         </div>
-    </div>
-    <table class="center">
-        <tr>
-            <th>Device</th>
-            <th>Model</th>
-            <th>Settings</th>
-        </tr>
-        <tr>
-            <td>Computer</td>
-            <td>Lenovo Y430p</td>
-            <td>Ubuntu 16.04 LTS</td>
-        </tr>
-        <tr>
-            <td>RGB camera</td>
-            <td>Logitech C930e</td>
-            <td>HD 640×480, FPS 30</td>
-        </tr>
-        <tr>
-            <td>LED ligths</td>
-            <td>Panasonic HHLT0623</td>
-            <td>Temperature: 4000K, Rated Voltage: 220V, Frequency: 50Hz</td>
-        </tr>
-        <tr>
-            <td>Illuminometer</td>
-            <td>BENETECH GM1030</td>
-            <td>Real-time interface</td>
-        </tr>
-        <tr>
-            <td>Biosignal Acquisition</td>
-            <td>CONTEC CMS50E</td>
-            <td>N/A</td>
-        </tr>
-    </table>
+        <table class="center">
+            <tr>
+                <th>Device</th>
+                <th>Model</th>
+                <th>Settings</th>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>Lenovo Y430p</td>
+                <td>Ubuntu 16.04 LTS</td>
+            </tr>
+            <tr>
+                <td>RGB camera</td>
+                <td>Logitech C930e</td>
+                <td>HD 640×480, FPS 30</td>
+            </tr>
+            <tr>
+                <td>LED ligths</td>
+                <td>Panasonic HHLT0623</td>
+                <td>Temperature: 4000K, Rated Voltage: 220V, Frequency: 50Hz</td>
+            </tr>
+            <tr>
+                <td>Illuminometer</td>
+                <td>BENETECH GM1030</td>
+                <td>Real-time interface</td>
+            </tr>
+            <tr>
+                <td>Biosignal Acquisition</td>
+                <td>CONTEC CMS50E</td>
+                <td>N/A</td>
+            </tr>
+        </table>
 
-    <br>
-    <hr>
-    <br>
+        <br>
+        <hr>
+        <br>
 
-    <div class="row" style="font-size:32px">
-        <div class="col">
-            3.Contact
+        <div class="row" style="font-size:32px">
+            <div class="col">
+                3.Contact
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col">
-            <ul>
-                <li>
-                    <p style="text-align: justify;">
-                        <b>Weihai Chen</b> (<font face="limetart">whchen[at]buaa[dot]edu[dot]cn</font>), School of
-                        Automation Science and
-                        Electrical Engineering, Beihang University
-                    </p>
-                </li>
-                <li>
-                    <p style="text-align: justify;">
-                        <b>Changchen Zhao</b> (<font face="limetart">cczhao[at]zjut[dot]edu[dot]cn</font>), College of
-                        Information Engineering, Zhejiang University of Technology
-                    </p>
-                </li>
-                <li>
-                    <p style="text-align: justify;">
-                        <b>Lin Xi</b> (<font face="limetart">xilin1991[at]buaa[dot]edu[dot]cn</font>), School of
-                        Automation Science and Electrical Engineering, Beihang University
-                    </p>
-                </li>
-            </ul>
+        <br>
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>
+                        <p style="text-align: justify;">
+                            <b>Weihai Chen</b> (<font face="limetart">whchen[at]buaa[dot]edu[dot]cn</font>), School of
+                            Automation Science and
+                            Electrical Engineering, Beihang University
+                        </p>
+                    </li>
+                    <li>
+                        <p style="text-align: justify;">
+                            <b>Changchen Zhao</b> (<font face="limetart">cczhao[at]zjut[dot]edu[dot]cn</font>), College
+                            of
+                            Information Engineering, Zhejiang University of Technology
+                        </p>
+                    </li>
+                    <li>
+                        <p style="text-align: justify;">
+                            <b>Lin Xi</b> (<font face="limetart">xilin1991[at]buaa[dot]edu[dot]cn</font>), School of
+                            Automation Science and Electrical Engineering, Beihang University
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <br>
-    <hr>
-    <br>
+        <br>
+        <hr>
+        <br>
 
-    <div class="row" style="font-size:32px">
-        <div class="col">
-            4.Download
+        <div class="row" style="font-size:32px">
+            <div class="col">
+                4.Download
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col">
-            <ul>
-                <li>
-                    <p style="text-align: justify;">
-                        BUAA-MIHR database is released to universities and research institutes for research purpose
-                        only.
-                    </p>
-                </li>
-                <li>
-                    <p style="text-align: justify;">
-                        Note that please contact <font face="limetart">xilin1991[at]buaa[dot]edu[dot]cn</font> for
-                        requests using an official
-                        email address (that is, university or institute email address, and non-official email addresses
-                        such as
-                        Gmail and 163 are not acceptable). When we receive your reply, we would provide the download
-                        link to
-                        you. [<a href="./MIHR Release Agreement.pdf" target="_blank">Release Agreement</a>]
-                    </p>
-                </li>
-                <li>
-                    <p style="text-align: justify;">
-                        Download BUAA-MIHR database in <a href="https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA"
-                            target="_blank">Baidu Pan</a> or <a href="https://1drv.ms/f/s!At7NnoVb37YFtQSM9QlyI_W84NH4"
-                            target="_blank">OneDrive</a>.
-                    </p>
-                </li>
-                <li>
-                    <p style="text-align: justify;">
-                        By using the BUAA-MIHR database, you are recommended to cite the following paper.
-                    </p>
-                </li>
-            </ul>
+        <br>
+        <div class="row">
+            <div class="col">
+                <ul>
+                    <li>
+                        <p style="text-align: justify;">
+                            BUAA-MIHR database is released to universities and research institutes for research purpose
+                            only.
+                        </p>
+                    </li>
+                    <li>
+                        <p style="text-align: justify;">
+                            Note that please contact <font face="limetart">xilin1991[at]buaa[dot]edu[dot]cn</font> for
+                            requests using an official
+                            email address (that is, university or institute email address, and non-official email
+                            addresses
+                            such as
+                            Gmail and 163 are not acceptable). When we receive your reply, we would provide the download
+                            link to
+                            you. [<a href="./MIHR Release Agreement.pdf" target="_blank">Release Agreement</a>]
+                        </p>
+                    </li>
+                    <li>
+                        <p style="text-align: justify;">
+                            Download BUAA-MIHR database in <a href="https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA"
+                                target="_blank">Baidu Pan</a> or <a
+                                href="https://1drv.ms/f/s!At7NnoVb37YFtQSM9QlyI_W84NH4" target="_blank">OneDrive</a>.
+                        </p>
+                    </li>
+                    <li>
+                        <p style="text-align: justify;">
+                            By using the BUAA-MIHR database, you are recommended to cite the following paper.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <br>
-    <hr>
-    <br>
+        <br>
+        <hr>
+        <br>
 
-    <div class="row" style="font-size:32px">
-        <div class="col">
-            Citation
+        <div class="row" style="font-size:32px">
+            <div class="col">
+                Citation
+            </div>
         </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col">
-            <pre>
+        <br>
+        <div class="row">
+            <div class="col">
+                <pre>
                 <code>
                     @INPROCEEDINGS{9320298,
                         author={Xi, Lin and Chen, Weihai and Zhao, Changchen and Wu, Xingming and Wang, Jianhua},
@@ -289,10 +295,11 @@
                     }
                 </code>
             </pre>
+            </div>
         </div>
+
     </div>
 
-</div>
-
 </body>
+
 </html>
