@@ -16,86 +16,207 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/limetart" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        @import url('https://fonts.cdnfonts.com/css/limetart');
+    </style>
 </head>
 
 <body>
 <br><br><br><br>
 <div class="container">
-        <div class="row text-center" style="font-size:38px">
-            <div class="col">
-            XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model
-            </div>
+    <div class="row text-center" style="font-size:38px">
+        <div class="col">
+            Large-scale Multi-illumination HR Database (BUAA-MIHR rPPG dataset)
         </div>
+    </div>
 
-        <br>
-        <div class="row text-center" style="font-size:28px">
-            <div class="col">
-            ECCV 2022
-            </div>
+    <br>
+    <div class="row text-center" style="font-size:28px">
+        <div class="col">
+            FG 2020
         </div>
-        <br>
+    </div>
+    <br>
 
-        <div class="h-100 row text-center heavy justify-content-md-center" style="font-size:24px;">
-            <div class="col-sm-3">
-                <a href="https://hkchengrex.github.io/">Ho Kei Cheng</a>
-            </div>
-            <div class="col-sm-3">
-                <a href="https://www.alexander-schwing.de/">Alexander Schwing</a>
-            </div>
+    <div class="h-100 row text-center heavy justify-content-md-center" style="font-size:24px;">
+        <div class="col-sm-3">
+            <a href="https://xilin1991.github.io/xilin1991/">Lin Xi</a>
         </div>
-
-        <br>
-
-        <div class="h-100 row text-center justify-content-md-center" style="font-size:20px;">
-            <div class="col-sm-2">
-                <a href="https://arxiv.org/abs/2207.07115">[arXiv]</a>
-            </div>
-            <div class="col-sm-2">
-                <a href="https://arxiv.org/pdf/2207.07115.pdf">[Paper]</a>
-            </div>
-            <div class="col-sm-2">
-                <a href="https://github.com/hkchengrex/XMem">[Code]</a>
-            </div>
+        <div class="col-sm-3">
+            <a href="https://scholar.google.com/citations?user=utc_IEIAAAAJ&hl=en">Changchen Zhao</a>
         </div>
+        <div class="col-sm-3">
+            <a href="https://www.researchgate.net/profile/Weihai-Chen-2">Weihai Chen</a>
+        </div>
+    </div>
 
     <br>
 
-    <div class="h-100 row text-center justify-content-md-center">
-        <i>Interactive GUI demo available <a href="https://github.com/hkchengrex/XMem/blob/main/docs/DEMO.md">[here]</a>! </i>
-        <div class="col">
-            <a href="https://github.com/hkchengrex/XMem/blob/main/docs/DEMO.md">
-                <img width="60%" src="https://imgur.com/uAImD80.jpg" alt="framework">
-            </a>
+    <div class="h-100 row text-center justify-content-md-center" style="font-size:20px;">
+        <div class="col-sm-2">
+            <a href="https://ieeexplore.ieee.org/abstract/document/9320298" target="_blank"><img alt="Static Badge"
+                    src="https://img.shields.io/badge/IEEE-TCSVT-blue?logo=IEEE&logoColor=white"></a>
+        </div>
+        <div class="col-sm-2">
+            <a href="https://arxiv.org/abs/2303.09336" target="_blank"><img
+                    src="https://img.shields.io/badge/arXiv-2303.09336-b31b1b?style=flat&logo=arXiv"></a>
         </div>
     </div>
+
+    <br>
 
     <hr>
 
     <div class="row" style="font-size:32px">
         <div class="col">
-        Abstract
+            1.Overview
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col">
             <p style="text-align: justify;">
-                We present XMem, a video object segmentation architecture for long videos with unified feature memory stores inspired by the Atkinson-Shiffrin memory model.
-		Prior work on video object segmentation typically only uses one type of feature memory. For videos longer than a minute, a single feature memory model tightly links memory consumption and accuracy. 
-		In contrast, following the Atkinson-Shiffrin model, we develop an architecture that incorporates multiple independent yet deeply-connected feature memory stores: a rapidly updated sensory memory, a high-resolution working memory, and a compact thus sustained long-term memory.
-		Crucially, we develop a memory potentiation algorithm that routinely consolidates actively used working memory elements into the long-term memory, which avoids memory explosion and minimizes performance decay for long-term prediction.
-		Combined with a new memory reading mechanism, XMem greatly exceeds state-of-the-art performance on long-video datasets while being on par with state-of-the-art methods (that do not work on long videos) on short-video datasets.
+                BUAA-MIHR dataset is a remote photoplethysmography (rPPG) dataset. BUAA-MIHR dataset for evaluation of
+                remote photoplethysmography pipeline under multi-illumination situations. We recruited 15 healthy
+                subjects
+                (12 male, 3 female, 18 to 30 years old) in this experiment and a total number of 165 video sequences
+                were
+                recorded under various illuminations. The experiments were conducted in a darkroom in order to isolate
+                from
+                ambient light.
+            </p>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="row" style="font-size:32px">
+        <div class="col">
+            2.Apparatus and Experimental Environment
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <p style="text-align: justify;">
+                Logitech HD pro webcam C930E color camera was used to record videos of 640 × 480 pixels, 8 bit depth, 30
+                fps, 60s, uncompressed bitmap format. PPG signal was measured using CONTEC CMS50E.
+            </p>
+            <p style="text-align: justify;">
+                The video is captured in a darkroom, which is covered witha blackout cloth. A split type illuminometer
+                is
+                used as the instrument for measuring light intensity and brightness in the darkroom. We varied
+                illuminance
+                in the range:
+            </p>
+            <p style="text-align: center"><a
+                    href="https://www.codecogs.com/eqnedit.php?latex=\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}"
+                    target="_blank"><img
+                        src="https://latex.codecogs.com/gif.latex?\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}"
+                        title="\{10^0, 10^{0.2}, 10^{0.4}, 10^{0.6}, 10^{0.8}, 10^{1.0}, 10^{1.2}, 10^{1.4}, 10^{1.6}, 10^{1.8}, 10^{2.0}\}\ \textbf{lux}" /></a>,
+            </p>
+            <p style="text-align: justify;">
+                equivalent to
+            </p>
+            <p style="text-align: center"><a
+                    href="https://www.codecogs.com/eqnedit.php?latex=\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}"
+                    target="_blank"><img
+                        src="https://latex.codecogs.com/gif.latex?\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}"
+                        title="\{1.0, 1.6, 2.5, 4.0, 6.3, 10.0, 15.8, 25.1, 39.8, 63.1, 100.0\}\ \textbf{lux}" /></a>.
             </p>
         </div>
     </div>
     <br>
-    <div class="h-100 row text-center justify-content-md-center">
+    <div class="row text-center">
         <div class="col">
-            <img width="80%" src="https://imgur.com/ToE2frx.jpg" alt="framework">
+            <b>Device and settings</b>
+        </div>
+    </div>
+    <table class="center">
+        <tr>
+            <th>Device</th>
+            <th>Model</th>
+            <th>Settings</th>
+        </tr>
+        <tr>
+            <td>Computer</td>
+            <td>Lenovo Y430p</td>
+            <td>Ubuntu 16.04 LTS</td>
+        </tr>
+        <tr>
+            <td>RGB camera</td>
+            <td>Logitech C930e</td>
+            <td>HD 640×480, FPS 30</td>
+        </tr>
+        <tr>
+            <td>LED ligths</td>
+            <td>Panasonic HHLT0623</td>
+            <td>Temperature: 4000K, Rated Voltage: 220V, Frequency: 50Hz</td>
+        </tr>
+        <tr>
+            <td>Illuminometer</td>
+            <td>BENETECH GM1030</td>
+            <td>Real-time interface</td>
+        </tr>
+        <tr>
+            <td>Biosignal Acquisition</td>
+            <td>CONTEC CMS50E</td>
+            <td>N/A</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="row" style="font-size:32px">
+        <div class="col">
+            3.Contact
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <ul>
+                <li>
+                    <p style="text-align: justify;">
+                        <b>Weihai Chen</b> (<font face="limetart">whchen[at]buaa[dot]edu[dot]cn</font>), School of
+                        Automation Science and
+                        Electrical Engineering, Beihang University
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify;">
+                        <b>Changchen Zhao</b> (<font face="limetart">cczhao[at]zjut[dot]edu[dot]cn</font>), College of
+                        Information Engineering, Zhejiang University of Technology
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify;">
+                        <b>Lin Xi</b> (<font face="limetart">xilin1991[at]buaa[dot]edu[dot]cn</font>), School of
+                        Automation Science and Electrical Engineering, Beihang University
+                    </p>
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -105,18 +226,45 @@
 
     <div class="row" style="font-size:32px">
         <div class="col">
-        Handling long-term occlusion
+            4.Download
         </div>
     </div>
     <br>
-    <center>
-        <iframe style="width:100%; aspect-ratio: 1.78;"
-            src="https://www.youtube.com/embed/mwOP8l3zVNw" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
-    </center>
+    <div class="row">
+        <div class="col">
+            <ul>
+                <li>
+                    <p style="text-align: justify;">
+                        BUAA-MIHR database is released to universities and research institutes for research purpose
+                        only.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify;">
+                        Note that please contact <font face="limetart">xilin1991[at]buaa[dot]edu[dot]cn</font> for
+                        requests using an official
+                        email address (that is, university or institute email address, and non-official email addresses
+                        such as
+                        Gmail and 163 are not acceptable). When we receive your reply, we would provide the download
+                        link to
+                        you. [<a href="./MIHR Release Agreement.pdf" target="_blank">Release Agreement</a>]
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify;">
+                        Download BUAA-MIHR database in <a href="https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA"
+                            target="_blank">Baidu Pan</a> or <a href="https://1drv.ms/f/s!At7NnoVb37YFtQSM9QlyI_W84NH4"
+                            target="_blank">OneDrive</a>.
+                    </p>
+                </li>
+                <li>
+                    <p style="text-align: justify;">
+                        By using the BUAA-MIHR database, you are recommended to cite the following paper.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <br>
     <hr>
@@ -124,49 +272,25 @@
 
     <div class="row" style="font-size:32px">
         <div class="col">
-        Very-long video; masked layer insertion
+            Citation
         </div>
     </div>
     <br>
-    <center>
-        <iframe style="width:100%; aspect-ratio: 1.78;"
-            src="https://www.youtube.com/embed/9OtFvF8FiEg" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
-        Source: https://www.youtube.com/watch?v=q5Xr0F4a0iU
-    </center>
-
-    <br>
-    <hr>
-    <br>
-
-    <div class="row" style="font-size:32px">
+    <div class="row">
         <div class="col">
-        Out-of-domain case
+            <pre>
+                <code>
+                    @INPROCEEDINGS{9320298,
+                        author={Xi, Lin and Chen, Weihai and Zhao, Changchen and Wu, Xingming and Wang, Jianhua},
+                        booktitle={2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)}, 
+                        title={Image Enhancement for Remote Photoplethysmography in a Low-Light Environment}, 
+                        year={2020},
+                        pages={1-7}
+                    }
+                </code>
+            </pre>
         </div>
     </div>
-    <br>
-    <center>
-        <video style="width: 100%" controls>
-            <source src="https://user-images.githubusercontent.com/7107196/177920383-161f1da1-33f9-48b3-b8b2-09e450432e2b.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video> 
-        Source: かぐや様は告らせたい ～天才たちの恋愛頭脳戦～ Ep.3; A1 Pictures
-    </center>
-
-    <br><br>
-
-    <div>
-        Contact: Ho Kei (Rex) Cheng
-        <div id="mail"></div>
-        <script>
-            document.querySelector("#mail").innerText = ["hkchengrex", "gmail.com"].join("@")
-        </script>
-        <br>
-    </div>
-    <br><br>
 
 </div>
 
