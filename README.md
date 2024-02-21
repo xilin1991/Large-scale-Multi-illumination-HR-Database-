@@ -42,7 +42,11 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
 
 * Download BUAA-MIHR database in [Baidu Pan](https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA) or [OneDrive](https://1drv.ms/f/s!At7NnoVb37YFtQSM9QlyI_W84NH4).
 
-* By using the BUAA-MIHR database, you are recommended to cite the following paper:
+* By using the BUAA-MIHR database, you are recommended to cite the paper.
+
+## 5.License
+
+The dataset is released under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA 4.0)</a> license. See <a href="./LICENSE" target="_blank">LICENSE</a> for details.
 
 ## Citation
 * Xi, L., Chen, W., Zhao, C., Wu, X., & Wang, J. (2020, November). Image enhancement for remote photoplethysmography in a low-light environment. In 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020) (pp. 1-7). IEEE. [<a href="https://ieeexplore.ieee.org/document/9320298" target="_blank">paper</a>]
