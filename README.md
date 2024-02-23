@@ -16,13 +16,13 @@ equivalent to
 <p style="text-align: center"><a href="https://www.codecogs.com/eqnedit.php?latex=\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{1.0,&space;1.6,&space;2.5,&space;4.0,&space;6.3,&space;10.0,&space;15.8,&space;25.1,&space;39.8,&space;63.1,&space;100.0\}\&space;\textbf{lux}" title="\{1.0, 1.6, 2.5, 4.0, 6.3, 10.0, 15.8, 25.1, 39.8, 63.1, 100.0\}\ \textbf{lux}" /></a>.</p>
 
 ### Device and settings
-| **Device** | **Model** | **Settings** |
-|:-------:|:-------:|:-------:|
-| Computer | Lenovo Y430p | Ubuntu 16.04 LTS |
-|RGB camera | Logitech C930e | HD 640×480, FPS 30 |
-|LED ligths | Panasonic HHLT0623 | Temperature: 4000K, Rated Voltage: 220V, Frequency: 50Hz |
-|Illuminometer | BENETECH GM1030 | Real-time interface |
-|Biosignal Acquisition | CONTEC CMS50E | N/A |
+|      **Device**       |     **Model**      |                       **Settings**                       |
+| :-------------------: | :----------------: | :------------------------------------------------------: |
+|       Computer        |    Lenovo Y430p    |                     Ubuntu 16.04 LTS                     |
+|      RGB camera       |   Logitech C930e   |                    HD 640×480, FPS 30                    |
+|      LED ligths       | Panasonic HHLT0623 | Temperature: 4000K, Rated Voltage: 220V, Frequency: 50Hz |
+|     Illuminometer     |  BENETECH GM1030   |                   Real-time interface                    |
+| Biosignal Acquisition |   CONTEC CMS50E    |                           N/A                            |
 
 
 ## 3.Contact
@@ -46,7 +46,9 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
 
 ## 5.License
 
-The dataset is released under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-NC-SA 4.0)</a> license. See <a href="./LICENSE" target="_blank">LICENSE</a> for details.
+The dataset is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. See <a href="./LICENSE" target="_blank">LICENSE</a> for details.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 ## Citation
 * Xi, L., Chen, W., Zhao, C., Wu, X., & Wang, J. (2020, November). Image enhancement for remote photoplethysmography in a low-light environment. In 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020) (pp. 1-7). IEEE. [<a href="https://ieeexplore.ieee.org/document/9320298" target="_blank">paper</a>]
