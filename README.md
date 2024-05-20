@@ -40,24 +40,24 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
 
 * Note that please contact xilin1991@buaa.edu.cn for requests using an official email address (that is, university or institute email address, and non-official email addresses such as Gmail and 163 are not acceptable). When we receive your reply, we would provide the download link to you.
 
-* Download BUAA-MIHR database in <a target="_blank" rel="noopener noreferrer" href="https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA">Baidu Pan</a> or [OneDrive](https://1drv.ms/f/c/05b6df5b859ecdde/Qt7NnoVb37YggAWEGgAAAAAAjPUJciP1vODR-A){target='_blank'}.
+* Download BUAA-MIHR database in [Baidu Pan](https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA) or [OneDrive](https://1drv.ms/f/c/05b6df5b859ecdde/Qt7NnoVb37YggAWEGgAAAAAAjPUJciP1vODR-A).
 
 * By using the BUAA-MIHR database, you are recommended to cite the paper.
 
 ## 5.License
 
-The dataset is licensed under a <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. See <a target="_blank" rel="noopener noreferrer" href="./LICENSE">LICENSE</a> for details.
+The dataset is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). See [LICENSE](./LICENSE) for details.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 ## Citation
-* Xi, L., Chen, W., Zhao, C., Wu, X., & Wang, J. (2020, November). Image enhancement for remote photoplethysmography in a low-light environment. In 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020) (pp. 1-7). IEEE. [<a href="https://ieeexplore.ieee.org/document/9320298" target="_blank">paper</a>]
+* Xi, L., Chen, W., Zhao, C., Wu, X., & Wang, J. (2020, November). Image enhancement for remote photoplethysmography in a low-light environment. In 2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020) (pp. 1-7). IEEE. [[paper](https://ieeexplore.ieee.org/document/9320298)]
 ```text
 @INPROCEEDINGS{9320298,
-  author={Xi, Lin and Chen, Weihai and Zhao, Changchen and Wu, Xingming and Wang, Jianhua},
-  booktitle={2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)},
-  title={Image Enhancement for Remote Photoplethysmography in a Low-Light Environment},
-  year={2020},
-  pages={1-7},
-  doi={10.1109/FG47880.2020.00076}}
+    author={Xi, Lin and Chen, Weihai and Zhao, Changchen and Wu, Xingming and Wang, Jianhua},
+    booktitle={2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)},
+    title={Image Enhancement for Remote Photoplethysmography in a Low-Light Environment},
+    year={2020},
+    pages={1-7},
+}
 ```
