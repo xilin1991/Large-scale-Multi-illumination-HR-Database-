@@ -7,7 +7,7 @@ BUAA-MIHR dataset is a remote photoplethysmography (rPPG) dataset. BUAA-MIHR dat
 
 Logitech HD pro webcam C930E color camera was used to record videos of 640 × 480 pixels, 8 bit depth, 30 fps, 60s, uncompressed bitmap format. PPG signal was measured using CONTEC CMS50E.
 
-The video is captured in a darkroom, which is covered witha blackout cloth. A split type illuminometer is used as the instrument for measuring light intensity and brightness in the darkroom. We varied illuminance in the range: 
+The video is captured in a darkroom, which is covered witha blackout cloth. A split type illuminometer is used as the instrument for measuring light intensity and brightness in the darkroom. We varied illuminance in the range:
 <!-- $$ \{10^{0}, 10^{0.2}, 10^{0.4}, 10^{0.6}, 10^{0.8}, 10^{1.0}, 10^{1.2}, 10^{1.4}, 10^{1.6}, 10^{1.8}, 10^{2.0}\}\ \mathbf{lux},$$ -->
 <p style="text-align: center"><a href="https://www.codecogs.com/eqnedit.php?latex=\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\{10^0,&space;10^{0.2},&space;10^{0.4},&space;10^{0.6},&space;10^{0.8},&space;10^{1.0},&space;10^{1.2},&space;10^{1.4},&space;10^{1.6},&space;10^{1.8},&space;10^{2.0}\}\&space;\mathbf{lux}" title="\{10^0, 10^{0.2}, 10^{0.4}, 10^{0.6}, 10^{0.8}, 10^{1.0}, 10^{1.2}, 10^{1.4}, 10^{1.6}, 10^{1.8}, 10^{2.0}\}\ \textbf{lux}" /></a>,</p>
 
@@ -40,13 +40,13 @@ Lin Xi (xilin1991@buaa.edu.cn), School of Automation Science and Electrical Engi
 
 * Note that please contact xilin1991@buaa.edu.cn for requests using an official email address (that is, university or institute email address, and non-official email addresses such as Gmail and 163 are not acceptable). When we receive your reply, we would provide the download link to you.
 
-* Download BUAA-MIHR database in [Baidu Pan](https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA) or [OneDrive](https://1drv.ms/f/s!At7NnoVb37YFtQSM9QlyI_W84NH4).
+* Download BUAA-MIHR database in <a target="_blank" rel="noopener noreferrer" href="https://pan.baidu.com/s/1SDhPdx3_Cav65LyBMpN-sA">Baidu Pan</a> or [OneDrive](https://1drv.ms/f/c/05b6df5b859ecdde/Qt7NnoVb37YggAWEGgAAAAAAjPUJciP1vODR-A){target='_blank'}.
 
 * By using the BUAA-MIHR database, you are recommended to cite the paper.
 
 ## 5.License
 
-The dataset is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. See <a href="./LICENSE" target="_blank">LICENSE</a> for details.
+The dataset is licensed under a <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. See <a target="_blank" rel="noopener noreferrer" href="./LICENSE">LICENSE</a> for details.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
@@ -55,8 +55,8 @@ The dataset is licensed under a <a href="https://creativecommons.org/licenses/by
 ```text
 @INPROCEEDINGS{9320298,
   author={Xi, Lin and Chen, Weihai and Zhao, Changchen and Wu, Xingming and Wang, Jianhua},
-  booktitle={2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)}, 
-  title={Image Enhancement for Remote Photoplethysmography in a Low-Light Environment}, 
+  booktitle={2020 15th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2020)},
+  title={Image Enhancement for Remote Photoplethysmography in a Low-Light Environment},
   year={2020},
   pages={1-7},
   doi={10.1109/FG47880.2020.00076}}
